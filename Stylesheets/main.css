@@ -1,0 +1,27 @@
+/****************************General*******************************************/
+body {
+  font: arial, sans-serif;
+}
+
+/****************************Header********************************************/
+header {
+  background: #ffca80;
+  text-align: center;
+  padding: 20px;
+}
+header img{
+  width: 160px;
+  display: inline-block;
+}
+
+header h1{
+  display: inline-block;
+  color: #ff9500;
+  vertical-align: top;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+
+
+/*****************************Body*********************************************/
