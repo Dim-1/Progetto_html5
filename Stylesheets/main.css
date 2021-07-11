@@ -1,6 +1,7 @@
 /****************************General*******************************************/
 body {
   font-family: 'Open Sans', sans-serif;
+  background:#fcefe8;
 }
 a{
   text-decoration: none;
@@ -45,9 +46,19 @@ nav li a{
 
 nav li{
   display: inline-block;
-  padding: 5px 35px 0 35px;
+  padding: 5px 35px 5px 35px;
 }
 nav li:hover{
   background: #ffca80;
 }
-/*****************************Body*********************************************35
+/*****************************Body*********************************************/
+main{
+  text-align: center;
+
+}
+.item{
+  margin-top: 60px;
+}
+.picture_pan img{
+  width: 1800px;
+}
