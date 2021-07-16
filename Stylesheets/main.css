@@ -79,7 +79,32 @@ nav li:hover{
 .picture img{
   width: 100%;
 }
+.item:last-child{
+  clear: left;
+}
 section{
   padding-bottom: 30px;
   padding-top: 30px;
+}
+
+
+/************************Footer************************************************/
+
+footer.main{
+  clear:both;
+}
+.social{
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.social a img{
+  max-height: 100px;
+}
+
+
+@media only screen and (max-width:900px){
+  body{
+    background: red;
+  }
 }
