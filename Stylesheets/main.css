@@ -18,6 +18,10 @@ a{
   margin:0 auto;
   padding: 0 15px;
 }
+.active{
+  background: #ffc280;
+  border-radius: 4px;
+}
 /****************************Header********************************************/
 header {
   background: #ffc280;
@@ -54,7 +58,7 @@ nav ul{
 nav li a{
   color:#ffffff;
   text-transform: uppercase;
-  padding: 5px 15px;
+  padding: 5px 25px;
 }
 
 nav li{
@@ -85,7 +89,12 @@ section{
   padding-bottom: 30px;
   padding-top: 30px;
 }
-
+/************************About*************************************************/
+#about img {
+  width: 100%;
+  border-radius: 100%;
+  padding:25px 0;
+}
 
 /************************Footer************************************************/
 
@@ -106,7 +115,8 @@ footer.main{
   font-size: 1.2rem;
 }
 /******************media only**************************************************/
-@media only screen and (min-width:900px){
+@media only screen and (min-width:992px){
+  /***********************Header***********************************************/
   nav li{
     transition: background 0.3s;
   }
@@ -114,15 +124,36 @@ footer.main{
     background: #ffc280;
     border-radius: 4px;
   }
+  /*************************Body***********************************************/
   .item{
     width: 33.3333%;
   }
   .item:last-child{
     float:right;
   }
+  /***********************About************************************************/
+  #about .imgProfilo{
+    width:50%;
+    float: left;
+    padding: 15px;
+    text-align: center;
+  }
+  #about img{
+    padding:25px;
+    width: 70%;
+  }
+  #about h1{
+    font-size: 2.2rem;
+  }
+  #about .racconto{
+    padding: 30px 15px 15px;
+    width: 50%;
+    float: right;
+  }
 }
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width:992px){
+  /***************************Body*********************************************/
   .item{
     width: 50%;
   }
