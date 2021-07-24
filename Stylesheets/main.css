@@ -95,7 +95,10 @@ section{
   border-radius: 100%;
   padding:25px 0;
 }
-
+/**************************Contact*********************************************/
+#contact {
+  padding-top: 5px;
+}
 /************************Footer************************************************/
 
 footer.main{
@@ -150,6 +153,19 @@ footer.main{
     width: 50%;
     float: right;
   }
+  /**************************Contact*******************************************/
+  #contact .info{
+    float: left;
+    width: 60%;
+    padding:25px;
+    padding-top: 5px;
+  }
+  #contact .contatti{
+    float: right;
+    width: 40%;
+    padding: 25px;
+    padding-top: 5px;
+  }
 }
 
 @media only screen and (max-width:992px){
@@ -160,5 +176,13 @@ footer.main{
   .item:last-child{
     float: none;
     clear: both;
+  }
+  #about .imgProfilo{
+
+    text-align: center;
+  }
+  #about img{
+    padding:15px;
+    width: 90%;
   }
 }
