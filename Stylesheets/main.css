@@ -22,6 +22,12 @@ a{
   background: #ffc280;
   border-radius: 4px;
 }
+ul {
+  list-style-type: none;
+}
+.titolo {
+  font-size: 2.7rem;
+}
 /****************************Header********************************************/
 header {
   background: #ffc280;
@@ -51,7 +57,6 @@ nav{
   padding: 5px;
 }
 nav ul{
-  list-style-type: none;
   padding: 0;
   margin:0;
 }
@@ -63,7 +68,7 @@ nav li a{
 
 nav li{
   display: inline-block;
-  padding: 5px 0;
+  padding: 8px 0;
 }
 
 /*****************************Body*********************************************/
@@ -98,6 +103,15 @@ section{
 /**************************Contact*********************************************/
 #contact {
   padding-top: 5px;
+}
+#contact a{
+  color: black;
+}
+#contact ul {
+  padding-left: 0;
+}
+#contact li{
+  padding: 7px 0;
 }
 /************************Footer************************************************/
 
@@ -145,9 +159,6 @@ footer.main{
     padding:25px;
     width: 70%;
   }
-  #about h1{
-    font-size: 2.2rem;
-  }
   #about .racconto{
     padding: 30px 15px 15px;
     width: 50%;
@@ -156,13 +167,13 @@ footer.main{
   /**************************Contact*******************************************/
   #contact .info{
     float: left;
-    width: 60%;
+    width: 70%;
     padding:25px;
     padding-top: 5px;
   }
   #contact .contatti{
     float: right;
-    width: 40%;
+    width: 30%;
     padding: 25px;
     padding-top: 5px;
   }
