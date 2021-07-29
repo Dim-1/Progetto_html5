@@ -30,12 +30,17 @@ ul {
 }
 main {
   min-height: calc(100vh - 192.1px - 120px);
+  margin-top: 192.1px;
 }
 /****************************Header********************************************/
 header {
   background: #ffc280;
   text-align: center;
   padding: 10px 0 0 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 .logo{
   margin-bottom: 5px;
@@ -101,11 +106,12 @@ section{
 #about img {
   width: 100%;
   border-radius: 100%;
-  padding:25px 0;
+  padding:15px 0;
 }
+
 /**************************Contact*********************************************/
 #contact {
-  padding-top: 5px;
+  padding-top: 15px;
 }
 #contact a{
   color: black;
@@ -164,11 +170,11 @@ footer.main{
     text-align: center;
   }
   #about img{
-    padding:25px;
+    padding:10px 25px 25px 25px;
     width: 70%;
   }
   #about .racconto{
-    padding: 30px 15px 15px;
+    padding: 10px 15px 15px;
     width: 50%;
     float: right;
   }
