@@ -28,20 +28,23 @@ ul {
 .titolo {
   font-size: 2.7rem;
 }
+main {
+  min-height: calc(100vh - 192.1px - 120px);
+}
 /****************************Header********************************************/
 header {
   background: #ffc280;
   text-align: center;
-  padding: 20px 0 0 0;
+  padding: 10px 0 0 0;
 }
 .logo{
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .logo a{
   text-decoration: none;
 }
 header img{
-  width: 160px;
+  width: 140px;
   display: inline-block;
 }
 
