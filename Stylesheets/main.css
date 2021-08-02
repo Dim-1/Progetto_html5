@@ -71,7 +71,7 @@ nav ul{
 nav li a{
   color:#ffffff;
   text-transform: uppercase;
-  padding: 5px 25px;
+  padding: 5px 15px;
 }
 
 nav li{
@@ -145,15 +145,27 @@ footer.main{
 .social p{
   font-size: 1.2rem;
 }
+
 /******************media only**************************************************/
+
 @media only screen and (min-width:992px){
+  
   /***********************Header***********************************************/
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff9500;
+  }
   nav li{
     transition: background 0.3s;
   }
   nav li:hover{
     background: #ffc280;
     border-radius: 4px;
+  }
+  header h1{
+    color: #fcefe8;
   }
   /*************************Body***********************************************/
   .item{
