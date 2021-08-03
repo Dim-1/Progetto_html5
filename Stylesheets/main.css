@@ -36,29 +36,33 @@ main {
 header {
   background: #ffc280;
   text-align: center;
-  padding: 10px 0 0 0;
+  padding: 5px 0;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
 }
-.logo{
-  margin-bottom: 5px;
+.logo a{
+  display: flex;
+  align-items: center;
 }
 .logo a{
   text-decoration: none;
 }
 header img{
-  width: 140px;
+  width: 120px;
   display: inline-block;
 }
-
-header h1{
+.nome{
   display: inline-block;
-  color: #ff9500;
-  vertical-align: top;
-  padding-left: 25px;
-  padding-top: 35px;
+  padding-left: 12px;
+  
+}
+.nome h1{
+  color: white;
+  margin:0;
+  font-size: 2rem;
+  
 }
 nav{
   background: #ff9500;
@@ -206,6 +210,11 @@ footer.main{
 }
 
 @media only screen and (max-width:992px){
+  /**************************Header********************************************/
+  .logo a{
+    justify-content:center;
+  }
+
   /***************************Body*********************************************/
   .item{
     width: 50%;
