@@ -84,18 +84,16 @@ nav li{
 }
 
 /*****************************Body*********************************************/
-.principale{
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .item{
   margin-top: 30px;
+
+  float: left;
   padding: 15px;
 }
 
 .item_pan{
   padding: 15px;
-  flex-grow: 1;
 }
 .picture_pan img{
   width: 100%;
@@ -177,9 +175,10 @@ footer.main{
   /*************************Body***********************************************/
   .item{
     width: 33.3333%;
-    flex: 0 1 33.333%;
   }
-  
+  .item:last-child{
+    float:right;
+  }
   /***********************About************************************************/
   #about .imgProfilo{
     width:50%;
@@ -223,7 +222,6 @@ footer.main{
   /***************************Body*********************************************/
   .item{
     width: 50%;
-    flex:0 1 50%;
   }
   .item:last-child{
     float: none;
