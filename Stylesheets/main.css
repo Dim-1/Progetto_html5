@@ -65,7 +65,7 @@ header img{
   
 }
 nav{
-  background: #ff9500;
+  background: rgba(255, 149, 0,0);
   padding: 5px;
 }
 nav ul{
@@ -169,7 +169,7 @@ footer.main{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #ff9500;
+    background: rgba(255, 149, 0,0.7);
     padding: 5px 0;
   }
   nav li{
