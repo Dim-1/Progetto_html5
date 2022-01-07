@@ -178,7 +178,7 @@ footer.main{
     padding: 5px 0;
   }
   nav li{
-    transition: background 0.3s;
+    transition: all 0.3s;
   }
   nav li:hover{
     background: #ffc280;
@@ -191,6 +191,13 @@ footer.main{
   .item{
     width: 33.3333%;
     flex: 0 1 33.333%;
+  }
+  .foto img{
+    transition: all .4s;
+  }
+  .foto img:hover{
+    opacity: .8;
+    transform: scale(1.1);
   }
   
   /***********************About************************************************/
